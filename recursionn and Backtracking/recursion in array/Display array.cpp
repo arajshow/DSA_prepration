@@ -12,10 +12,10 @@ Input Format
 A number n
 n1
 n2
-.. n number of elements
+.... n number of elements
 
 Output Format
 n1
 n2
-.. n elements
+.... n elements
 */
