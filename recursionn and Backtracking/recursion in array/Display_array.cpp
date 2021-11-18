@@ -23,10 +23,24 @@ n2
 #include<bits/stdc++.h>
 using namespace std;
 
+void printout(int *arr, int start, int n){
+    if(start==n) return;
+    else{
+        cout<<arr[start++]<<endl;
+        printout(arr, start , n);
+    }
+}
+
 int main(){
 
-    int n =7;
-    cout<<n;
+    int n;
+    cin>>n;
+    int *arr = new int[n];
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+
+    printout( arr, 0, n);
 
     return 0;
 
