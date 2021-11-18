@@ -12,11 +12,12 @@ Input Format
 A number n
 n1
 n2
-.. n number of elements
+.... n number of elements
 
 Output Format
 n1
 n2
+<<<<<<< HEAD:recursionn and Backtracking/recursion in array/Display_array.cpp
 .. n elements
 */
 
@@ -45,3 +46,7 @@ int main(){
     return 0;
 
 }
+=======
+.... n elements
+*/
+>>>>>>> 7597c5122a11b3624bb01df2ac58d02620af4424:recursionn and Backtracking/recursion in array/Display array.cpp
