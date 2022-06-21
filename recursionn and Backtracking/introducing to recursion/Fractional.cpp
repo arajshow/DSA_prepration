@@ -13,10 +13,10 @@ factorial of n : 120
 #include<bits/stdc++.h>
 using namespace std;
 
-int frac(int n){
+int rohit(int n){
     if(n==1) return 1;
     int count =n;
-    count*=frac(n-1);
+    count*=rohit(n-1);
     return count;
 }
 
@@ -25,6 +25,6 @@ int main(){
     int n;
     cin>>n;
 
-    cout<<frac(n);
+    cout<<rohit(n);
     return 0;
 }
